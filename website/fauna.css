@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+#nav {
+	font-size: 27px;
+	text-align:center;
+	color: #030;
+	display:block;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#nav ul {
+	text-align:center;
+    list-style-type: none;
+    padding: 0;
+    position: fix;
+    min-width: 200px;
+	
+	
+}
+#nav ul li {
+    display: inline-block;
+	
+}
+#nav ul li:hover {
+    background-color: #CFC;
+	
+}
+#nav ul li a, visited {
+    display:inline-block;
+    padding: 15px;
+    text-decoration: none;
+	color: #030;
+	
+}
+#nav ul li:hover ul {
+	background-color: #CFC;
+    display: block;
+	
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border: 0;
+    margin-left: -5px;
+	
+}
+#nav ul ul li {
+    display: block;
+	background-color: #CFF;
+}
+#nav ul ul li a:hover {
+}
+
+h1{
+	text-transform: uppercase;
+	color: white;
+	text-shadow: .1em .1em .2em gray;
+}
+
+h2{
+	text-transform: uppercase;
+	text-shadow: .1em .1em .2em gray;
+}
+p#copyright {
+  color:#663333; 
+  font-size: 1em;
+  text-align: center;
+  background-color: #FFC;
+  font-family:Verdana, Geneva, sans-serif;
+  }
+#fauna ul {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+	float:left;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#fauna li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#fauna li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#fauna li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.species {
+	margin-left: 210px;
+    border: 1px solid #ccc;
+	text-align:justify;
+	font-family: Verdana, Geneva, sans-serif;
+}
+p#copyright {
+  color:#663333; 
+  font-size: 1em;
+  text-align: center;
+  background-color: #FFC;
+  font-family:Verdana, Geneva, sans-serif;
+  }

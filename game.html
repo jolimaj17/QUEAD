@@ -1,0 +1,126 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		 <link rel="stylesheet" type="text/css" href="j.css">
+         <script type="text/javascript" src="j.js"></script><style type="text/css">
+
+</style>
+         <title>Game</title>
+         <link rel="icon" href="banner.png" type="image/png">
+</head>
+<body>
+
+		<div id="nav">
+		<ul>
+			<img src="header2.png" alt="header" />
+            <li><a href="index.html">Home</a></li>
+			<li><a href="game.html">Games</a></li>
+            <li><a href="website/fauna/index.php">Species</a>
+           		<ul>
+                    <li><a href="website/flora/index.php">Flora</a>
+                    </li>
+					<li><a href="website/fauna/index.php">Fauna</a>
+                    </li>
+                </ul>
+               </li>
+            <li><a href="website/faunagallery/index.php">Gallery</a>
+                <ul>
+                    <li><a href="website/floragallery/index.php">Flora</a>
+                    </li>
+					<li><a href="website/faunagallery/index.php">Fauna</a>
+                    </li>
+                </ul>
+            </li>
+			<li> <center><a href="website/trivia.php">Trivias</a></li>
+            <li> <center><a href="website/quiz/index.php">Quiz</a></li>
+			<li> <center><a href="website/contact.php">Contact</a></li>
+            
+        </ul>
+        </div>
+        
+        <center><img src="queadgame.png"  alt="fa" /></center>
+        
+    <div class="w3-content w3-display-container">
+  <img class="mySlides" src="pics/m1.PNG" style="width:100%">
+  <img class="mySlides" src="pics/m2.PNG" style="width:100%">
+    <img class="mySlides" src="pics/m3.PNG" style="width:100%">
+    <img class="mySlides" src="pics/mm3.PNG" style="width:100%">
+  <img class="mySlides" src="pics/m4.PNG" style="width:100%">
+<img class="mySlides" src="pics/m5.PNG" style="width:100%">
+<img class="mySlides" src="pics/m6.PNG" style="width:100%">
+<img class="mySlides" src="pics/m7.PNG" style="width:100%">
+<img class="mySlides" src="pics/m8.PNG" style="width:100%">
+<img class="mySlides" src="pics/m9.PNG" style="width:100%">
+<img class="mySlides" src="pics/m10.PNG" style="width:100%">
+<img class="mySlides" src="pics/m11.PNG" style="width:100%">
+<img class="mySlides" src="pics/m12.PNG" style="width:100%">
+<img class="mySlides" src="pics/m13.PNG" style="width:100%">
+<img class="mySlides" src="pics/m14.PNG" style="width:100%">
+<img class="mySlides" src="pics/m15.PNG" style="width:100%">
+<img class="mySlides" src="pics/m16.PNG" style="width:100%">
+<img class="mySlides" src="pics/m17.PNG" style="width:100%">
+<img class="mySlides" src="pics/m18.PNG" style="width:100%">
+<img class="mySlides" src="pics/m19.PNG" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<style>
+div {
+    border: none;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+p#a {
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+
+</style>
+        <div><p>The game takes place exclusively in Quezon Province, a sixth largest province in the Philippines, is located in the CALABARZON Region, which is rich in flora and fauna species. The game opens with the teenager from Manila who is able to live here because her parents send him to changes his lifestyle. The teenager will live alone the farm of his great grandfather who already died for a long years located in the mountain. The farmland is different because the species here is not the traditional. So the teenager needs to adjust herself for the changes. She need to maintain places that have fallen into disrepair. The teenager decides how to allocate time between daily tasks.  The loggers are needed to defeat for the security of the various species. The endangered plants need reproduce.</p></div>
+    <br/>
+  <br/>   
+  
+ <p class="a">You cannot play the game  directly on this page. There is  a link to our itch.io page at the bottom of the page.</p> 
+<center><p>Quezon Adventure Game is not enabled for mobile or tablet. </p></center>
+<center><iframe frameborder="0" src="https://itch.io/embed/229050?border_width=0&amp;link_color=5cfab8" width="550" height="165"></iframe>
+  </body></center>
+  
+  
+  <br/>
+  <br/>
+  	<p id="copyright">All content copyright &copy; Quezon Adventure Game </p>
+</html>

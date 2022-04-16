@@ -1,0 +1,10 @@
+<?php
+require("../config.php");
+
+if(isset($_GET['id'])){
+	$id = $_GET['id'];
+mysqli_query($con,"DELETE FROM comments WHERE id='$id'");
+header("location: https://quezonadventuregames.000webhostapp.com/website/contact.php");
+}
+mysqli_close($con);
+?>

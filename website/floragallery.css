@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+#nav {
+	font-size: 27px;
+	text-align:center;
+	color: #030;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#nav ul {
+	text-align:center;
+    list-style-type: none;
+    padding: 0;
+    position: fix;
+    min-width: 200px;
+	
+}
+#nav ul li {
+    display: inline-block;
+	
+}
+#nav ul li:hover {
+    background-color: #CFC;
+}
+#nav ul li a, visited {
+    display:inline-block;
+    padding: 15px;
+    text-decoration: none;
+	color: #030;
+}
+#nav ul li:hover ul {
+	background-color: #CFC;
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+	background-color: #CFF;
+}
+#nav ul ul li a:hover {
+}
+
+h1{
+	text-transform: uppercase;
+	color: white;
+	text-shadow: .1em .1em .2em gray;
+}
+
+h2{
+	text-transform: uppercase;
+	text-shadow: .1em .1em .2em gray;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300;
+	height: 200;
+}
+
+#copyright {
+  color:#663333; 
+  font-size: 1em;
+  text-align: center;
+  background-color: #FFC;
+  font-family:Verdana, Geneva, sans-serif;
+  }
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    
+}
+
+div.desc {
+	margin:auto;
+    text-align: center;
+}

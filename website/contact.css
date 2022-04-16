@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+#nav {
+	font-size: 27px;
+	text-align:center;
+	color: #030;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#nav ul {
+	text-align:center;
+    list-style-type: none;
+    padding: 0;
+    position: fix;
+    min-width: 200px;
+	
+}
+#nav ul li {
+    display: inline-block;
+	
+}
+#nav ul li:hover {
+    background-color: #CFC;
+}
+#nav ul li a, visited {
+    display:inline-block;
+    padding: 15px;
+    text-decoration: none;
+	color: #030;
+}
+#nav ul li:hover ul {
+	background-color: #CFC;
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+	background-color: #CFF;
+}
+#nav ul ul li a:hover {
+}
+
+
+.connect{
+	float: right;
+	
+}
+#contact{
+	background-color: #6FC;
+}
+#connect{margin:0px 43px; }
+#connect .content{overflow:inherit;width:100%; }
+#connect #form{
+	width:450px;
+	float:left;
+	
+}
+
+#connect #form span{
+	display:block;
+	float:left;
+	width:100px;
+	padding-top:5px;
+	font: 400 20px "Courier New", Courier, monospace;
+	
+}
+
+#connect #form input{
+	float: left;
+	width: 300px;
+	border: 0px;
+	color:black;
+	opacity: .7;
+	padding: 5px 5px 5px 30px;
+	font: 20px "Courier New", Courier, monospace;
+	margin-bottom: 15px;
+}
+
+#connect #form textarea{
+	float: left;
+	border: 0px;
+	width: 300px;
+	height: 100px;
+	padding: 5px 5px 5px 30px;
+	font: 20px "Courier New", Courier, monospace;
+	color: black;
+	opacity: .7;
+}
+
+#connect #form input.name{background:#fff url(images/icon-user.png) no-repeat 5px 5px; }
+#connect #form input.email{background:#fff url(images/icon-mail.png) no-repeat 10px 9px;}
+#connect #form textarea.message{background:#fff url(images/icon-message.png) no-repeat 10px 8px;}
+#connect #form input.submit{ 
+	width: 85px;   
+	height: 40px;
+	float: right;
+	padding: 0px 0px 5px 0px;
+	margin: 10px 16px 0px 0px;
+	background: black;
+	color:#fff;
+	font: 16px "Courier New", Courier, monospace;
+}
+
+#connect #social-footer{
+	width: 450px;
+	float:left;
+	margin-left:150px;
+	margin-top: 0px;
+	font: 16px Tahoma, Geneva, sans-serif;
+	
+}
+
+#connect #social-footer{
+	width:300px;
+	float:left;
+	margin-left:75px;
+}
+#connect #social-footer #sm-links{margin-top:25px;}
+#connect #social-footer #sm-links li{
+	list-style:none;
+	float:left;
+}
+#connect #social-footer #sm-links li a{
+	display:block;
+	text-indent:-9999px;
+	width:26px; 
+	height:26px;
+	margin-right:10px;
+}
+#connect #social-footer #sm-links li a.facebook{background:url(images/sm-facebook-icon.png) no-repeat;}
+#connect #social-footer #sm-links li a.twitter{background:url(images/sm-twitter-icon.png) no-repeat; width:31px;}
+#connect #social-footer #sm-links li a.dribble{background:url(images/sm-dribble-icon.png) no-repeat;}
+#connect #social-footer #sm-links li a.vimeo{background:url(images/sm-vimeo-icon.png) no-repeat; width:27px;}
+#connect #social-footer #sm-links li a.google{background:url(images/sm-google-icon.png) no-repeat;}
+#connect #social-footer #sm-links li a.youtube{background:url(images/sm-youtube-icon.png) no-repeat; width:28px;}
+#connect #social-footer #sm-links li a.linkedin{background:url(images/sm-linkedin-icon.png) no-repeat;}
+
+
+p#copyright {
+  color:#663333; 
+  font-size: 1em;
+  text-align: center;
+  background-color: #FFC;
+  font-family:Verdana, Geneva, sans-serif;
+  }
